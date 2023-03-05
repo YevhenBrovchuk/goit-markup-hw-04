@@ -287,22 +287,227 @@ padding-bottom: 120px;
     
 }
 
+
+
+.cont-icon{
+    margin: 8px 16px 32px;
+}
+.linc-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4D5AE5;
+
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+
+.cont-icon-team{
+    
+width: 16px;
+height: 16px;
+}
+
+
+.item-icon{
+flex-basis: calc((100% - 72px)/4);
+
+}
+
+/*.lenk-item-team{
+    
+    width: 40px;
+    height: 40px;
+    
+}
+
+.cont-icon-team{
+    width: 16px;
+    height: 16px;
+    
+}
+
+.instagram-icon{
+    
+}
+
+.twitter-icon{
+    width: 16px;
+    height: 13px;
+} */
+
+
 .prioritet__item{
     flex-basis: calc((100% - 72px)/4);
 min-width: 250px;
 }
 
-.prioritet__item::before{
-    display: block;
-    content: '';
-    height: 20px;
-    background-color: black;
+.prioritet-icon{
+    background-color: #F4F4FD;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    height: 112px;
 }
+
+
+.prioritet-icon-item{
+    width: 64px;
+    height: 64px;
+    
+}
+/* .test{
+    
+        width: 264px;
+        height: 112px;
+        background-color: #F4F4FD;
+        border-radius: 4px;
+        /* background-position: center;
+        background-repeat: no-repeat; */
+/*} */
+/* .test-item{
+    width: 59.75px;
+    height: 64px;
+} */
+
+
+.section-customers{
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+.customer-item{
+    flex-basis: calc((100% - 120px)/6);
+}
+
+
+/* .customers-item{
+    flex-basis: calc((100% - 120px)/6);
+    display: flex;
+    justify-content: center;
+        align-items: center;
+    width: 168px;
+        height: 88px;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+}
+
+.customers-item:hover,
+.customers-item:focus{
+    border-color:#404BBF ;
+} */
+
+
+
+.customers-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 88px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #404BBF;
+}
+
+.customers-link:hover,
+.customers-link:focus{
+border: 1px solid #404BBF;
+}
+
+.customers-icon-yaco{
+    /* width: 41px; */
+    height: 46.97px;
+    fill:#AFB1B8;
+}
+.customers-icon-yaco:hover,
+.customers-icon-yaco:focus
+{
+   fill:currentColor;
+}
+
+
+
+
+
+.customers-icon-companytaglinehere{
+    /* width: 40; */
+    height: 52px;
+    fill: #AFB1B8;
+}
+
+.customers-icon-companytaglinehere:hover,
+.customers-icon-companytaglinehere:focus{
+    fill: currentColor;
+}
+
+
+
+.customers-icon-company{
+    /* width: 44px; */
+    height: 41px;
+    fill: #AFB1B8;
+}
+
+.customers-icon-company:hover,
+.customers-icon-company:focus{
+    fill: currentColor;
+}
+
+
+
+.customers-icon-fosterpeters{
+    /* width: 84px; */
+    height: 41px;
+    fill: #AFB1B8;
+}
+.customers-icon-fosterpeters:hover,
+.customers-icon-fosterpeters:focus{
+    fill: currentColor;
+}
+
+.customers-icon-brand{
+    /* width: 63px; */
+    height: 45px;
+    fill: #AFB1B8;
+}
+.customers-icon-brand:hover,
+.customers-icon-brand:focus{
+
+fill: currentColor;
+}
+
+.customers-icon-companytagline{
+    /* width: 94px; */
+    height: 44px;
+    fill: #AFB1B8;
+}
+
+.customers-icon-companytagline:hover,
+.customers-icon-companytagline:focus{
+    fill: currentColor;
+}
+
+
+
+
 /* button Portfolio */
 
 .filter{
     justify-content: center;
 }
+
+.filter-item:hover,
+.filter-item:focus{
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
+    0px 2px 1px rgba(0, 0, 0, 0.08), 
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
 .section-btn{
     min-height: 48px;
     padding-left: 23px;
@@ -311,12 +516,14 @@ min-width: 250px;
     background-color: var(--fonbtn-fonsect-logofooter-color);
     color:var(--ferstlogo-btn-color);
     border-color: var(--textfooter-color); 
+
 }
 
 .section-btn:hover, 
 .section-btn:focus{
     background-color: var(--hover-focus-color);
     color: var(--body-color);
+    
 }
 
 .section-btn-ferst{
@@ -362,6 +569,11 @@ flex-basis: calc((100% - 48px)/3);
 
 }
 
+.list-result .item:hover{
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+0px 1px 1px rgba(46, 47, 66, 0.16), 
+0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 .list-result .border{
     padding: 32px 16px;
@@ -381,6 +593,7 @@ flex-basis: calc((100% - 48px)/3);
 
 
 /* footer */
+
 .page-footer{
 padding-top: 100px;
 padding-bottom: 100px;
