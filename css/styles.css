@@ -283,38 +283,67 @@ padding-bottom: 120px;
 } */
 
 .cont-text-team{
-    padding: 32px 16px ;
+    padding: 32px 16px;
+    
     
 }
 
-
-
-.cont-icon{
-    margin: 8px 16px 32px;
+.list-icon{
+    /* display: flax; */
+    justify-content: center;
+    margin-top: 8px;
 }
-.linc-icon{
+
+.linc-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #4D5AE5;
-
     border-radius: 50%;
     width: 40px;
     height: 40px;
 
 }
 
-.cont-icon-team{
-    
-width: 16px;
-height: 16px;
+.cont-icon-team {
+
+    width: 16px;
+    height: 16px;
+    fill: #F4F4FD;
 }
 
 
-.item-icon{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .cont-icon{
+    margin: 8px 16px 32px;
+} */
+
+
+
+
+
+/* .item-icon{
 flex-basis: calc((100% - 72px)/4);
 
-}
+} */
 
 /*.lenk-item-team{
     
@@ -380,9 +409,7 @@ min-width: 250px;
     padding-bottom: 120px;
 }
 
-.customer-item{
-    flex-basis: calc((100% - 120px)/6);
-}
+
 
 
 /* .customers-item{
@@ -411,7 +438,7 @@ min-width: 250px;
     height: 88px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    color: #404BBF;
+    /* color: #404BBF; */
 }
 
 .customers-link:hover,
@@ -419,17 +446,17 @@ min-width: 250px;
 border: 1px solid #404BBF;
 }
 
-.customers-icon-yaco{
+.customers-icon-yaco {
     /* width: 41px; */
     height: 46.97px;
-    fill:#AFB1B8;
-}
-.customers-icon-yaco:hover,
-.customers-icon-yaco:focus
-{
-   fill:currentColor;
+    fill: #AFB1B8;
 }
 
+.customers-link:hover .customers-icon-yaco,
+.customers-link:focus .customers-icon-yaco
+{
+fill: #404BBF;
+}
 
 
 
@@ -440,9 +467,9 @@ border: 1px solid #404BBF;
     fill: #AFB1B8;
 }
 
-.customers-icon-companytaglinehere:hover,
-.customers-icon-companytaglinehere:focus{
-    fill: currentColor;
+.customers-link:hover .customers-icon-companytaglinehere,
+.customers-link:focus .customers-icon-companytaglinehere {
+    fill:  #404BBF;
 }
 
 
@@ -453,10 +480,12 @@ border: 1px solid #404BBF;
     fill: #AFB1B8;
 }
 
-.customers-icon-company:hover,
-.customers-icon-company:focus{
-    fill: currentColor;
+.customers-link:hover .customers-icon-company,
+.customers-link:focus .customers-icon-company {
+    fill:  #404BBF;
 }
+
+
 
 
 
@@ -465,21 +494,25 @@ border: 1px solid #404BBF;
     height: 41px;
     fill: #AFB1B8;
 }
-.customers-icon-fosterpeters:hover,
-.customers-icon-fosterpeters:focus{
-    fill: currentColor;
+
+.customers-link:hover .customers-icon-fosterpeters,
+.customers-link:focus .customers-icon-fosterpeters {
+    fill:  #404BBF;
 }
+
+
 
 .customers-icon-brand{
     /* width: 63px; */
     height: 45px;
     fill: #AFB1B8;
 }
-.customers-icon-brand:hover,
-.customers-icon-brand:focus{
 
-fill: currentColor;
+.customers-link:hover .customers-icon-brand,
+.customers-link:focus .customers-icon-brand {
+    fill:  #404BBF;
 }
+
 
 .customers-icon-companytagline{
     /* width: 94px; */
@@ -487,10 +520,12 @@ fill: currentColor;
     fill: #AFB1B8;
 }
 
-.customers-icon-companytagline:hover,
-.customers-icon-companytagline:focus{
-    fill: currentColor;
+.customers-link:hover .customers-icon-companytagline,
+.customers-link:focus .customers-icon-companytagline {
+    fill:  #404BBF;
 }
+
+
 
 
 
@@ -609,3 +644,56 @@ background-color: var(--logo-nav-footer-color);;
     color:var(--textfooter-color);
 }
 
+
+.conteiner-footer{
+    display: flex;
+    gap:120px;
+    flex-wrap: wrap;
+}
+
+
+.text-footer-social{
+    margin-bottom: 16px;
+
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    
+        color: #FFFFFF;
+}
+
+
+
+.list-icon-footer{
+    display: flex;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        gap: 16px;
+        flex-wrap: wrap;
+        min-width: 208px;
+}
+.linc-icon-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+
+}
+
+.linc-icon-footer:hover,
+.linc-icon-footer:focus{
+    background-color:#31D0AA;
+}
+
+.cont-icon-footer {
+
+    width: 24px;
+    height: 24px;
+    fill:#F4F4FD;
+}
