@@ -72,7 +72,18 @@ border: 1px solid transparent;
 }
 
 .hidden {
-    display: none;
+    
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+        
 }
 
 .link{
@@ -304,6 +315,17 @@ padding-bottom: 120px;
     height: 40px;
 
 }
+.linc-icon:hover,
+.linc-icon:focus{
+    background-color: #404BBF;
+}
+
+.linc-icon:hover .cont-icon-team,
+.linc-icon:focus .cont-icon-team {
+    fill: #F4F4FD;
+}
+
+
 
 .cont-icon-team {
 
@@ -381,12 +403,16 @@ min-width: 250px;
     border-radius: 4px;
     margin-bottom: 8px;
     height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .prioritet-icon-item{
     width: 64px;
     height: 64px;
+    display: block;
     
 }
 /* .test{
@@ -428,13 +454,16 @@ min-width: 250px;
     border-color:#404BBF ;
 } */
 
-
+.customers-item{
+    flex-basis: calc((100% - 120px)/6);
+    min-width: 168px;
+}
 
 .customers-link{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 168px;
+    
     height: 88px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
