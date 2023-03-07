@@ -20,7 +20,7 @@
 --fonbtn-fonsect-logofooter-color:#F4F4FD;
 --textfooter-color:#E7E9FC;
 --hero-fon-color:#2E2F42;
-
+--custumer-fon:#AFB1B8;
 }
 .conteiner{
     margin: 0 auto;
@@ -309,7 +309,7 @@ padding-bottom: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #4D5AE5;
+    background-color: var(--ferstlogo-btn-color);
     border-radius: 50%;
     width: 40px;
     height: 40px;
@@ -317,12 +317,12 @@ padding-bottom: 120px;
 }
 .linc-icon:hover,
 .linc-icon:focus{
-    background-color: #404BBF;
+    background-color: var(--hover-focus-color);
 }
 
 .linc-icon:hover .cont-icon-team,
 .linc-icon:focus .cont-icon-team {
-    fill: #F4F4FD;
+    fill: var(--fonbtn-fonsect-logofooter-color);
 }
 
 
@@ -331,7 +331,7 @@ padding-bottom: 120px;
 
     width: 16px;
     height: 16px;
-    fill: #F4F4FD;
+    fill: var(--fonbtn-fonsect-logofooter-color);
 }
 
 
@@ -396,7 +396,7 @@ min-width: 250px;
 }
 
 .prioritet-icon{
-    background-color: #F4F4FD;
+    background-color: var(--fonbtn-fonsect-logofooter-color);
     text-align: center;
     padding-top: 24px;
     padding-bottom: 24px;
@@ -419,7 +419,7 @@ min-width: 250px;
     
         width: 264px;
         height: 112px;
-        background-color: #F4F4FD;
+        background-color: var(--fonbtn-fonsect-logofooter-color);
         border-radius: 4px;
         /* background-position: center;
         background-repeat: no-repeat; */
@@ -465,26 +465,26 @@ min-width: 250px;
     align-items: center;
     
     height: 88px;
-    border: 1px solid #AFB1B8;
+    border: 1px solid var(--custumer-fon);
     border-radius: 4px;
     /* color: #404BBF; */
 }
 
 .customers-link:hover,
 .customers-link:focus{
-border: 1px solid #404BBF;
+border: 1px solid var(--hover-focus-color);
 }
 
 .customers-icon-yaco {
     /* width: 41px; */
     height: 46.97px;
-    fill: #AFB1B8;
+    fill: var(--custumer-fon);
 }
 
 .customers-link:hover .customers-icon-yaco,
 .customers-link:focus .customers-icon-yaco
 {
-fill: #404BBF;
+fill: var(--hover-focus-color);
 }
 
 
@@ -493,12 +493,12 @@ fill: #404BBF;
 .customers-icon-companytaglinehere{
     /* width: 40; */
     height: 52px;
-    fill: #AFB1B8;
+    fill: var(--custumer-fon);
 }
 
 .customers-link:hover .customers-icon-companytaglinehere,
 .customers-link:focus .customers-icon-companytaglinehere {
-    fill:  #404BBF;
+    fill:  var(--hover-focus-color);
 }
 
 
@@ -506,12 +506,12 @@ fill: #404BBF;
 .customers-icon-company{
     /* width: 44px; */
     height: 41px;
-    fill: #AFB1B8;
+    fill: var(--custumer-fon);
 }
 
 .customers-link:hover .customers-icon-company,
 .customers-link:focus .customers-icon-company {
-    fill:  #404BBF;
+    fill:  var(--hover-focus-color);
 }
 
 
@@ -521,12 +521,12 @@ fill: #404BBF;
 .customers-icon-fosterpeters{
     /* width: 84px; */
     height: 41px;
-    fill: #AFB1B8;
+    fill: var(--custumer-fon);
 }
 
 .customers-link:hover .customers-icon-fosterpeters,
 .customers-link:focus .customers-icon-fosterpeters {
-    fill:  #404BBF;
+    fill:  var(--hover-focus-color);
 }
 
 
@@ -534,24 +534,24 @@ fill: #404BBF;
 .customers-icon-brand{
     /* width: 63px; */
     height: 45px;
-    fill: #AFB1B8;
+    fill: var(--custumer-fon);
 }
 
 .customers-link:hover .customers-icon-brand,
 .customers-link:focus .customers-icon-brand {
-    fill:  #404BBF;
+    fill:  var(--hover-focus-color);
 }
 
 
 .customers-icon-companytagline{
     /* width: 94px; */
     height: 44px;
-    fill: #AFB1B8;
+    fill: var(--custumer-fon);
 }
 
 .customers-link:hover .customers-icon-companytagline,
 .customers-link:focus .customers-icon-companytagline {
-    fill:  #404BBF;
+    fill:  var(--hover-focus-color);
 }
 
 
@@ -689,7 +689,7 @@ background-color: var(--logo-nav-footer-color);;
         line-height: 1.5;
         letter-spacing: 0.02em;
     
-        color: #FFFFFF;
+        color: var(--body-color);
 }
 
 
@@ -724,5 +724,5 @@ background-color: var(--logo-nav-footer-color);;
 
     width: 24px;
     height: 24px;
-    fill:#F4F4FD;
+    fill:var(--fonbtn-fonsect-logofooter-color);
 }
